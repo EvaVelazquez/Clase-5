@@ -1,0 +1,11 @@
+\\Felicidad o Hambre
+\\Cuando tengo hambre estoy triste, si “hambre” es un valor booleano (true o false), tienes que descifrar si estoy feliz o tengo hambre
+
+Inicio
+	LEER hambre 
+	SI hambre === True ENTONCES
+		ESCRIBE "Tengo Hambre"
+	SiNo
+		ESCRIBE "Estoy feliz"
+	FIN-SI
+Fin

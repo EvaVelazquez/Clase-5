@@ -1,0 +1,16 @@
+\\Acceso al refrigerador
+\\Vivo con varios roomies y siempre me roban la comida, entonces le puse una contraseña al refrigerador. Tienes que hacer un programa que valide si mi nombre es el correcto y si mi contraseña también.
+
+Inicio
+	LEER nombre
+	LEER contraseña
+	SI nombre === "eva" ENTONCES
+		SI contraseña === "123" ENTONCES
+			ESCRIBE "Tienes Acceso"
+	SINO
+		ESCRIBE "No Tienes Acceso"		
+	FIN-SI
+	SINO
+		ESCRIBE "Error"
+	FIN-SI
+Fin

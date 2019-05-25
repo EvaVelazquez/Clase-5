@@ -1,0 +1,22 @@
+\\Apuesta
+\\Estoy jugando un juego de dados, gano si saco el mismo número en dos de los tres dados. Descubre si gané o no.
+
+Incio
+	LEER shot_1
+	LEER shot_2
+	LEER shot_3
+	SI shot_1 === shot_2 ENTONCES
+		ESCRIBE "Ganaste""
+	SINO
+		SI shot_2 === shot_3 ENTONCES
+			ESCRIBE "Ganaste""
+		SINO
+			SI shot_3 === shot_1 ENTONCES
+				ESCRIBE "Ganaste""
+			SINO
+				ESCRIBE "Perdiste""	
+			FIN-SI	
+		FIN-SI
+	FIN-SI
+
+Fin

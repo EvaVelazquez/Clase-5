@@ -1,0 +1,11 @@
+\\Horario
+\\Estoy inscrito a muchas clases porque me gusta aprender: Los lunes y miércoles voy a Historia, los martes a natacion, los jueves a esgrima y los demás días descanso. Dime a qué clase voy si te digo un día.
+
+Inicio
+	Leer Dia
+	Si 	Dia = Lunes || Dia = Miercoles || Dia = Martes || Dia = Jueves
+		Escribe "No descansas, tienes clase"
+	Si no
+		Escribe "Descansas, no tienes clase"
+	Fin Si
+Fin
